@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infografía: Día de Playa y Convivencia en Salinas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F0F9FF;
+        }
+        .hero-bg {
+            background-image: url('https://placehold.co/1200x600/38BDF8/FFFFFF?text=Playa+de+Salinas');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-shadow-strong {
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+        }
+        .card {
+            background-color: white;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            box-shadow: 0 10px 20px -5px rgba(14, 116, 144, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px -10px rgba(14, 116, 144, 0.25);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+            border: 4px solid #0EA5E9;
+            left: -11.5px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+<main class="container mx-auto p-4 md:p-8 max-w-6xl">
+    <header class="text-center my-12">
+        <h1 class="text-5xl md:text-6xl font-black text-sky-700">¡Nos vamos a la playa!</h1>
+        <p class="text-xl md:text-2xl mt-4 text-gray-600">Día de Convivencia en Salinas</p>
+    </header>
+
+    <section class="grid md:grid-cols-3 gap-8 text-center mb-16">
+        <div class="card">
+            <p class="text-6xl mb-4">🗓️</p>
+            <h3 class="text-2xl font-bold text-sky-600 mb-2">Cuándo y Dónde</h3>
+            <p class="font-bold text-lg">Viernes, 8 de Agosto</p>
+            <p class="text-lg">a las <span class="font-bold">11:00 AM</span></p>
+            <p class="mt-2 text-sm">📍 Pinar de Salinas</p>
+        </div>
+        <div class="card">
+            <p class="text-6xl mb-4">🧺</p>
+            <h3 class="text-2xl font-bold text-sky-600 mb-2">Comida y Barbacoa</h3>
+            <p>Nos reuniremos para comer a las <span class="font-bold">14:00</span>. La comida será <span class="font-bold">para compartir</span>. ¡Trae tu especialidad! Aprovecharemos las parrillas para un <span class="font-bold">aperitivo</span>.</p>
+        </div>
+        <div class="card">
+            <p class="text-6xl mb-4">🎉</p>
+            <h3 class="text-2xl font-bold text-sky-600 mb-2">Actividades Planeadas</h3>
+            <p>Playa, paseos, juegos de mesa, y para los peques... <span class="font-bold">¡globos de agua!</span> 🎈 Pura diversión y convivencia.</p>
+        </div>
+    </section>
+
+    <section class="my-20">
+        <h2 class="text-4xl font-bold text-center mb-12 text-sky-700">Un Día Perfecto en Salinas</h2>
+        <div class="relative max-w-2xl mx-auto border-l-4 border-sky-300 pl-10 py-4">
+            <div class="mb-12 relative timeline-item">
+                <h3 class="text-2xl font-bold text-yellow-500">11:00 AM - Punto de Encuentro</h3>
+                <p class="mt-2 text-gray-700">Nos reunimos en el Área Recreativa del Pinar. Dejaremos la comida y nos organizaremos para empezar un día genial.</p>
+            </div>
+            <div class="mb-12 relative timeline-item">
+                <h3 class="text-2xl font-bold text-yellow-500">12:00 PM - ¡A la Parrilla!</h3>
+                <p class="mt-2 text-gray-700">Inauguramos la jornada con un aperitivo en la barbacoa mientras los niños (y no tan niños) preparan los globos de agua.</p>
+            </div>
+            <div class="mb-12 relative timeline-item">
+                <h3 class="text-2xl font-bold text-yellow-500">14:00 PM - Comida de Convivencia</h3>
+                <p class="mt-2 text-gray-700">¡A comer! Montamos nuestro gran picnic con todo lo que hemos traído para compartir. El momento perfecto para charlar y reír.</p>
+            </div>
+            <div class="relative timeline-item">
+                <h3 class="text-2xl font-bold text-yellow-500">Tarde - Playa, Paseo y Juegos</h3>
+                <p class="mt-2 text-gray-700">Tarde libre para disfrutar de la playa, dar un paseo relajante por las dunas o echar una partida a algún juego de mesa a la sombra.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-20 p-8 bg-white rounded-2xl shadow-xl grid md:grid-cols-2 gap-8 items-center">
+        <div>
+             <h2 class="text-3xl font-bold text-sky-700 mb-6">Cómo Llegar y el Lugar</h2>
+             <div class="mb-6">
+                <h4 class="text-xl font-bold flex items-center mb-2"><span class="text-3xl mr-3">🚌</span>En Autobús (Desde Avilés)</h4>
+                <p class="ml-10">La forma más sencilla es tomar la línea <span class="font-bold bg-sky-100 text-sky-800 px-2 py-1 rounded-md">L1</span>. Bájate en la parada del <span class="font-bold">Centro de Salud de Salinas</span>. El pinar está a un corto paseo.</p>
+             </div>
+             <div>
+                <h4 class="text-xl font-bold flex items-center mb-2"><span class="text-3xl mr-3">🌲</span>Sobre el Pinar</h4>
+                <ul class="list-none ml-10 space-y-2 mt-2">
+                    <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span>Zona de barbacoas.</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span>Mesas de picnic a la sombra.</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span>Fuente de agua potable.</li>
+                    <li class="flex items-center"><span class="text-green-500 mr-2 font-bold">✓</span>Accesible para movilidad reducida.</li>
+                </ul>
+             </div>
+        </div>
+        <div class="w-full h-96 md:h-full min-h-[300px]">
+            <iframe 
+                class="w-full h-full rounded-lg shadow-md border-4 border-white"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.036544971842!2d-5.961464684508019!3d43.5647099791244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd36801a61326463%3A0x62961a14f207e98a!2sPinar%20de%20Salinas!5e0!3m2!1ses!2ses!4v1657812345678"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mapa de ubicación del Pinar de Salinas">
+            </iframe>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
